@@ -41,13 +41,13 @@ export default function Home() {
             <p>Join the Discord!</p>
           </a>
 
-          {/* <a
-            href="https://twitter.com/?lang=en"
+          <a
+            href="https://twitter.com/BuhuClothing?s=09"
             className="card"
           >
             <h3>Twitter &rarr;</h3>
             <p>Follow us.</p>
-          </a> */}
+          </a>
 
           {/* <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
