@@ -8,7 +8,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Bu Hu</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/iconbuhu.png" />
       </Head>
 
       <main>
