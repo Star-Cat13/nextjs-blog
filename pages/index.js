@@ -42,7 +42,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://twitter.com/BuHu13395542?s=09"
+            href="https://twitter.com/BuhuClothing?s=09"
             className="card"
           >
             <h3>Twitter &rarr;</h3>
