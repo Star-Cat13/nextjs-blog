@@ -1,48 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-// export const connectWallet = async () => {
-//   if (window.ethereum) { //check if Metamask is installed
-//     try {
-//       const address = await window.ethereum.enable(); //connect Metamask
-//       const obj = {
-//         connectedStatus: true,
-//         status: "",
-//         address: address
-//       }
-//       return obj;
 
-//     } catch (error) {
-//       return {
-//         connectedStatus: false,
-//         status: " Connect to Metamask using the button on the top right."
-//       }
-//     }
-
-//   } else {
-//     return {
-//       connectedStatus: false,
-//       status: " You must install Metamask into your browser: https://metamask.io/download.html"
-//     }
-//   }
-// };
-
-// ethereumButton.addEventListener('click', () => {
-//   getAccount();
-// });
-
-// ethereum.request({ method: 'eth_requestAccounts' });
-
-// const ethereumButton = document.querySelector('.enableEthereumButton');
-// const showAccount = document.querySelector('.showAccount');
-
-
-
-// async function getAccount() {
-//   const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
-//   const account = accounts[0];
-//   showAccount.innerHTML = account;
-// }
 
 export default function Home() {
   return (
@@ -69,7 +28,7 @@ export default function Home() {
           VR Fashion
         </p>
 
-        {/* <button class="enableEthereumButton">Enable Ethereum</button> */}
+
 
         <div className="grid">
           <a href="https://opensea.io/collection/bu-hu-clothing" className="card">
