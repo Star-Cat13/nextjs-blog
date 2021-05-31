@@ -1,6 +1,9 @@
 html,
 body {
-    background-color: #543864;
+  /* background: linear-gradient(#ff6363, #543864); */
+  background: linear-gradient(217deg, #543864, rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, #543864, rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, #ff6363, rgba(0,0,255,0) 70.71%);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
@@ -47,7 +50,7 @@ img {
   footer {
     width: 100%;
     height: 100px;
-    border-top: 1px solid #eaeaea;
+    /* border-top: 1px solid #eaeaea; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +91,7 @@ img {
   .title,
   .description {
     text-align: center;
+    color: #543864;
   }
 
   .description {
@@ -108,7 +112,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
     max-width: 800px;
     margin-top: 3rem;
@@ -116,10 +120,11 @@ img {
 
   .card {
     margin: 1rem;
-    /* flex-basis: 45%; */
+    height: 8rem;
+    flex-basis: 45%;
     padding: 1.5rem;
     text-align: left;
-    color: #fcdab7;
+    color: #ffdcad;
     text-decoration: none;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -131,7 +136,7 @@ img {
   .card:focus,
   .card:active {
     color: #ffbd69;
-    border-color: #ffbd69;
+    border-color: #ff6363;
   }
 
   .card h3 {
@@ -144,7 +149,8 @@ img {
     font-size: 1.25rem;
     line-height: 1.5;
   }
-
+  
+  
   .logo {
     height: 1em;
   }

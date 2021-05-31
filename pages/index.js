@@ -14,7 +14,7 @@ export default function Home() {
       <main>
 
         <Image
-          src="/images/bhtitle.png" // Route of the image file
+          src="/images/bunnyHugOutline.png" // Route of the image file
           height={117} // Desired size with correct aspect ratio
           width={533} // Desired size with correct aspect ratio
           alt="BunnyHug"
@@ -25,28 +25,47 @@ export default function Home() {
         </h1> */}
 
         <p className="description">
-          Virtual Fashion
+          VRoid Fashion
         </p>
 
 
 
         <div className="grid">
           <a href="https://opensea.io/collection/bu-hu-clothing" className="card">
-            <h3>OpenSea &rarr;</h3>
-            <p>Shop our virtual fashion line.</p>
+            {/* <h3>OpenSea &rarr;</h3> */}
+            <Image
+              src="/images/opensea-logo-flat-colored-white.png" // Route of the image file
+              height={50} // Desired size with correct aspect ratio
+              width={165} // Desired size with correct aspect ratio
+              alt="opensea"
+            />
+            <p>Shop here.</p>
           </a>
 
           <a href="https://discord.gg/pM9ZgAe89K" className="card">
-            <h3>Discord &rarr;</h3>
-            <p>Join the Discord!</p>
+            {/* <h3>Discord &rarr;</h3> */}
+            <Image
+              src="/images/full_logo_white_RGB.png" // Route of the image file
+              height={50} // Desired size with correct aspect ratio
+              width={263} // Desired size with correct aspect ratio
+              alt="discord"
+            />
+            <p>Chat here.</p>
           </a>
 
           <a
             href="https://twitter.com/BuhuClothing?s=09"
             className="card"
           >
-            <h3>Twitter &rarr;</h3>
-            <p>Follow us.</p>
+            {/* <h3>Twitter &rarr;</h3> */}
+            <Image
+              src="/images/2021 Twitter logo - white.png" // Route of the image file
+              height={50} // Desired size with correct aspect ratio
+              width={60} // Desired size with correct aspect ratio
+
+              alt="twitter"
+            />
+            <p>Follow here.</p>
           </a>
 
           {/* <a
@@ -63,14 +82,7 @@ export default function Home() {
 
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
+
       </footer>
 
 
