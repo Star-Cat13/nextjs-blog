@@ -25,7 +25,7 @@ export default function Home() {
         </h1> */}
 
         <p className="description">
-          VR Fashion
+          Virtual Fashion
         </p>
 
 
