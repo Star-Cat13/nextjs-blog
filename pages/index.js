@@ -1,27 +1,34 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
+import React, { Component } from 'react';
 
 
 export default function Home() {
 
 
+
+
+
+
   return (
-    <div className="container">
+    <div className="container" >
       <Head>
         <title>Bu Hu</title>
         <link rel="icon" href="/iconbuhu.png" />
       </Head>
 
+
       <main>
 
-
-        <Image
-          src="/images/bunnyHugOutline.png" // Route of the image file
-          height={117} // Desired size with correct aspect ratio
-          width={533} // Desired size with correct aspect ratio
-          alt="BunnyHug"
-        />
+        <div id="background-color">
+          <Image
+            src="/images/bunnyHugOutline.png" // Route of the image file
+            height={117} // Desired size with correct aspect ratio
+            width={533} // Desired size with correct aspect ratio
+            alt="BunnyHug"
+          />
+        </div>
 
         {/* <h1 className="title">
           Learn to <a href="https://nextjs.org">Next.js!</a>
@@ -83,6 +90,7 @@ export default function Home() {
 
         </div>
 
+
       </main>
 
 
@@ -93,5 +101,4 @@ export default function Home() {
 
     </div>
   )
-
 }
