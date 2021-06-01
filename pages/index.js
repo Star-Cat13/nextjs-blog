@@ -62,9 +62,9 @@ export default function Home() {
           >
             {/* <h3>Twitter &rarr;</h3> */}
             <Image
-              src="/images/2021 Twitter logo - white.png" // Route of the image file
+              src="/images/twitter_white_logo.png" // Route of the image file
               height={50} // Desired size with correct aspect ratio
-              width={60} // Desired size with correct aspect ratio
+              width={263} // Desired size with correct aspect ratio
 
               alt="twitter"
             />
@@ -80,7 +80,9 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a> */}
+
         </div>
+
       </main>
 
 
