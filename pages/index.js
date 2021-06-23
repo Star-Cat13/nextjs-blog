@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="twitter:site" content="@BuhuClothing" />
         <meta name="twitter:title" content="BuHu.Clothing Home" />
         <meta name="twitter:description" content="Visit Bu Hu Clothing for the latest VRoid Fashion." />
-        <meta name="twitter:image" content="/images/summery_card.png" />
+        <meta name="twitter:image" content="https://github.com/Star-Cat13/nextjs-blog/blob/main/public/images/summery_card.png?raw=true" />
       </Head>
 
 
