@@ -16,6 +16,12 @@ export default function Home() {
       <Head>
         <title>Bu Hu</title>
         <link rel="icon" href="/iconbuhu.png" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@BuhuClothing" />
+        <meta name="twitter:title" content="BuHu.Clothing Home" />
+        <meta name="twitter:description" content="Visit Bu Hu Clothing for the latest VRoid Fashion." />
+        <meta name="twitter:image" content="/images/summery_card.png" />
       </Head>
 
 
