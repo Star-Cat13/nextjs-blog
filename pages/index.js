@@ -29,7 +29,7 @@ export default function Home() {
 
         <div id="background-color">
           <Image
-            src="/images/bunnyHugOutline.png" // Route of the image file
+            src="/images/bunnyHugOutline.png" // Routee of the image file
             height={117} // Desired size with correct aspect ratio
             width={533} // Desired size with correct aspect ratio
             alt="BunnyHug"
