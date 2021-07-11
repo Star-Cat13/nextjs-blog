@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import React, { Component } from 'react';
 
@@ -27,7 +28,7 @@ export default function Home() {
 
       <main>
 
-        <div id="background-color">
+        <div>
           <Image
             src="/images/bunnyHugOutline.png" // Routee of the image file
             height={117} // Desired size with correct aspect ratio
@@ -43,7 +44,6 @@ export default function Home() {
         <p className="description">
           VRoid Fashion
         </p>
-
 
 
         <div className="grid">
@@ -84,17 +84,23 @@ export default function Home() {
             <p>Follow here.</p>
           </a>
 
-          {/* <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <a href="/collections"
             className="card"
           >
-            <h3>Deploy &rarr;</h3>
+            <Image
+              src="/images/white_logo_buhuclothing.png" // Route of the image file
+              height={50} // Desired size with correct aspect ratio
+              width={263} // Desired size with correct aspect ratio
+
+              alt="Bu Hu Clothing"
+            />
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Collections Here.
             </p>
-          </a> */}
+          </a>
 
         </div>
+
 
 
       </main>
