@@ -16,6 +16,7 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  justify-content: center;
 }
 
 * {
@@ -167,7 +168,7 @@ img {
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
-  color: #ffdc000ad;
+  color: #ffdcad;
   text-decoration: none;
 
 
